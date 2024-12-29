@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api'
+  baseURL: 'https://full-stack-movie-collection-manager.vercel.app/api'
 });
 
 export const getMovies = () => api.get('/movies');
